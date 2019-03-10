@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>好看的轮播</title>
+	<link href="css/rest.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+	<h1>点击圆点为苹果风格，点左右箭头无缝轮播</h1>
+	<div class="bannerBox">
+		<div id="banner">
+			<input type="button" value="<" id="btn_L" />
+			<input type="button" value=">" id="btn_R" />
+			<div id="view">
+				<ul class="clear">
+					<li><img src="img/banner1.jpg" /></li>
+					<li><img src="img/banner2.jpg" /></li>
+					<li><img src="img/banner3.jpg" /></li>
+					<li><img src="img/banner4.jpg" /></li>
+				</ul>
+			</div>
+			<ol id="olBtn">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+	</div>
+
+	<script src="js/animate.js"></script>
+	<script src="js/bannerPlay.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

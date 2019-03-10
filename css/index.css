@@ -1,0 +1,80 @@
+.layout{
+	width: 1200px;
+	margin:0 auto;
+}
+body{
+	background: #F5F5F5;
+}
+
+.bannerBox{
+	width:100%;
+	background: #fff;
+}
+/*banner图片大div*/
+#view ul li img{
+	display: block;
+	width: 100%;
+}
+#banner li{
+	list-style: none;
+}
+#banner{
+	height: 460px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+/*左右按键*/
+#banner input{
+	width: 30px;
+	height: 40px;
+	position:absolute;
+	top:210px;
+	z-index: 1;
+	outline: none;
+	border: none;
+	color: darkgray;
+	background:#F0F0F0;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+#btn_L{
+	left: 0;
+}
+#btn_R{
+	right: 0;
+}
+#view{
+	width: 1920px;
+	position:absolute;
+	left:0;
+}
+#banner ul{
+	left:0;
+	position:absolute;
+	
+}
+#banner ul li{
+	width: 1920px;
+	float: left;
+}
+/*4个圆点*/
+#banner ol{
+	position: absolute;
+	top:414px;
+	left:0;
+	right:0;
+	margin: 0 auto;
+	width: 200px;
+}
+#banner ol li{
+	width:18px;
+	height:18px;
+	background: url(../img/icon.png) no-repeat -144px -18px;
+	margin-left: 8px;
+	cursor: pointer;
+	float: left;
+}
+#banner ol li.active{
+	background: url(../img/icon.png) no-repeat -142px -40px;
+}
